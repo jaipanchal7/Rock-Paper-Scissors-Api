@@ -1,0 +1,66 @@
+2022-12-17 18:20:32,143 [INFO] com.rock_paper_scissor.RockPaperScissorApiApplication [restartedMain] Starting RockPaperScissorApiApplication using Java 1.8.0_351 on Jai with PID 15768 (D:\Coding\Submit Assignment\Rock_Paper_Scissor_Api\target\classes started by Jai in D:\Coding\Submit Assignment\Rock_Paper_Scissor_Api)
+2022-12-17 18:20:32,144 [DEBUG] com.rock_paper_scissor.RockPaperScissorApiApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-17 18:20:32,144 [INFO] com.rock_paper_scissor.RockPaperScissorApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-17 18:20:32,188 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-17 18:20:32,189 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-17 18:20:33,397 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-17 18:20:33,407 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-12-17 18:20:33,407 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-17 18:20:33,534 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-17 18:20:33,534 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1345 ms
+2022-12-17 18:20:33,938 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-17 18:20:34,081 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-17 18:20:34,296 [INFO] com.rock_paper_scissor.RockPaperScissorApiApplication [restartedMain] Started RockPaperScissorApiApplication in 2.554 seconds (JVM running for 3.523)
+2022-12-17 18:20:39,467 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-17 18:20:39,468 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-17 18:20:39,469 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-12-17 18:20:39,502 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-1] Handle method accessed
+2022-12-17 18:20:39,503 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-1] Computer generated paper
+2022-12-17 18:20:39,503 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-1] [You choose : rock] , [Computer choose : paper] -> So Computer Win
+
+2022-12-17 18:20:48,715 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] Handle method accessed
+2022-12-17 18:20:48,715 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] You choose favicon.ico, it's invalid. Please choose b/w rock, paper and scissor
+
+2022-12-17 18:20:52,866 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-6] Handle method accessed
+2022-12-17 18:20:52,866 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-6] You choose favicon.ico, it's invalid. Please choose b/w rock, paper and scissor
+
+2022-12-17 18:21:02,698 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] Handle method accessed
+2022-12-17 18:21:02,699 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-3] Computer generated paper
+2022-12-17 18:21:02,699 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] [You choose : paper] , [Computer choose : paper] -> So TIE
+
+2022-12-17 18:21:04,996 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-4] Handle method accessed
+2022-12-17 18:21:04,997 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-4] Computer generated paper
+2022-12-17 18:21:04,997 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-4] [You choose : paper] , [Computer choose : paper] -> So TIE
+
+2022-12-17 18:21:05,619 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-5] Handle method accessed
+2022-12-17 18:21:05,619 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-5] Computer generated rock
+2022-12-17 18:21:05,620 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-5] [You choose : paper] , [Computer choose : rock] -> So You Win
+
+2022-12-17 18:21:06,675 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-6] Handle method accessed
+2022-12-17 18:21:06,675 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-6] Computer generated rock
+2022-12-17 18:21:06,675 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-6] [You choose : paper] , [Computer choose : rock] -> So You Win
+
+2022-12-17 18:21:07,453 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-7] Handle method accessed
+2022-12-17 18:21:07,454 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-7] Computer generated paper
+2022-12-17 18:21:07,454 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-7] [You choose : paper] , [Computer choose : paper] -> So TIE
+
+2022-12-17 18:21:08,330 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-10] Handle method accessed
+2022-12-17 18:21:08,331 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-10] Computer generated rock
+2022-12-17 18:21:08,331 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-10] [You choose : paper] , [Computer choose : rock] -> So You Win
+
+2022-12-17 18:21:08,922 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-9] Handle method accessed
+2022-12-17 18:21:08,922 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-9] Computer generated scissor
+2022-12-17 18:21:08,922 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-9] [You choose : paper] , [Computer choose : scissor] -> So Computer Win
+
+2022-12-17 18:21:09,748 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-8] Handle method accessed
+2022-12-17 18:21:09,749 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-8] Computer generated paper
+2022-12-17 18:21:09,749 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-8] [You choose : paper] , [Computer choose : paper] -> So TIE
+
+2022-12-17 18:21:10,632 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-2] Handle method accessed
+2022-12-17 18:21:10,633 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-2] Computer generated scissor
+2022-12-17 18:21:10,633 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-2] [You choose : paper] , [Computer choose : scissor] -> So Computer Win
+
+2022-12-17 18:21:11,395 [TRACE] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] Handle method accessed
+2022-12-17 18:21:11,395 [INFO] com.rock_paper_scissor.services.Game [http-nio-8080-exec-3] Computer generated rock
+2022-12-17 18:21:11,396 [DEBUG] com.rock_paper_scissor.controller.HomeController [http-nio-8080-exec-3] [You choose : paper] , [Computer choose : rock] -> So You Win
+
